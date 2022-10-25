@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/background.jpg);
+  
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilebox{
+  background: rgba(255,255,255,0.25);
+  box-shadow: 0 5px 10px black;
+  text-align: center;
+  padding: 40px 150px;
+  color: azure;
+  position: relative;
+  border-radius: 20px;
+  height: 450px;
+  transition: 0.5s ease-in-out;
+ 
+  
+
+}
+
+.profilebox.active{
+  background: rgba(255,255,255,0.25);
+  box-shadow: 0 5px 10px black;
+  text-align: center;
+  padding: 40px 150px;
+  color: azure;
+  position: relative;
+  border-radius: 20px;
+  height: 600px;
+ 
+  
+
+}
+
+.menu-icon{
+  width: 25px;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+.setting-icon{
+  width: 25px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+.profile-pic-icon{
+  width: 150px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 6px;
+  margin-top: 30px;
+}
+
+.text{
+  color: black;
+  font-family: 'poppins', sans-serif
+}
+
+.profile-bottom{
+  background: white;
+  color: #fff;
+  padding: 10px 0px;
+  margin-right: -150px;
+  margin-left: -150px;
+  margin-bottom: -40px;
+  border-radius: 20px;
+  margin-top: -5px;
+}
+.profile-bottom img{
+  width: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.profilebox button{
+  background: white;
+  color: black;
+  border: none;
+  outline: none;
+  box-shadow:0 5px 10px rgba(0,0,0,0.5);
+  padding: 1px 11px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.profilebox h3{
+  font-size: 22px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.social-media img{
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.socials{
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+
+.toggle
+{
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 60px;
+  height: 60px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 35px;
+}
+
+.toggle::before
+{
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 60px;
+  height: 60px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 35px;
+}
+
+.toggle::after{
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 60px;
+  height: 60px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 35px;
+
+
+}
+
+.toggle img{
+  position: relative;
+  right: 10px;
+  top: -10px;
+  width: 60px;
+  transform: rotate(0deg);
+}
+
+.profilebox.active .toggle img{
+
+  position: relative;
+  right: 10px;
+  top: -10px;
+  width: 60px;
+  transform: rotate(180deg);
+}
+
+.imgBx
+{
+  width: 10px;
+ 
+  cursor: pointer;
+}
