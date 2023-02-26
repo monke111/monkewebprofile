@@ -12,23 +12,21 @@
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.profilebox{
-  margin:  10px;
-  background: rgba(255,255,255,0.25);
-  box-shadow: 0 5px 10px black;
-  text-align: center;
-  padding: 20px 20px;
-  color: azure;
   position: relative;
-  border-radius: 20px;
-  transition: 0.5s ease-in-out;
 }
-
-
+.profilebox {
+  margin: 0 auto;
+  width: 600px; /* Set the width of the profile box */
+  text-align: center;
+  padding: 30px;
+  color: azure;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 5px 10px black;
+}
 .menu-icon{
   width: 25px;
   position: absolute;
@@ -55,57 +53,58 @@
   font-family: 'poppins', sans-serif
 }
 
-.profile-bottom{
-  background: white;
-  color: #fff;
-  padding: 10px 0px;
-  margin-right: -150px;
-  margin-left: -150px;
-  margin-bottom: -40px;
-  border-radius: 20px;
-  margin-top: -5px;
-}
 .profile-bottom img{
   width: 15px;
   margin-top: 15px;
   cursor: pointer;
 }
 
-.profilebox button{
-  background: white;
-  color: black;
-  border: none;
-  outline: none;
-  box-shadow:0 5px 10px rgba(0,0,0,0.5);
-  padding: 1px 11px;
-  border-radius: 30px;
-  cursor: pointer;
-  margin-bottom: 5px;
-  font-weight: 600;
-  font-size: 16px;
-}
+
 
 .profilebox h3{
   font-size: 22px;
-
-  font-weight: 500;
+  padding: 10px 10px;
+  font-weight: bolder;
 }
 
 .social-media img{
-  padding: 1px;
+  padding: 5px;
+  margin-top: 10px;
   cursor: pointer;
 }
 
-.socials{
-  margin-top: 10px;
+
+.social {
+  text-align: center;
+  background-color: #fff;
+  background-size: cover;
+  color: black;
   font-weight: bold;
+  border-radius: 10px;
+  padding: 2px 2px;
+  margin-top: 3px;
+  margin-right: 140px;
+  margin-left: 140px;
 }
 
+.nav{
+  text-align: center;
+  background-color: #fff;
+  background-size: cover;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 2px 2px;
+  margin-top: 3px;
+  margin-right: 135px;
+  margin-left: 135px;
 
+}
 
-
-
-
+.bio1 {
+  margin-top: px;
+  margin-bottom: 5px;
+}
 
 
 
