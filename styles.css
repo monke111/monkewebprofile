@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Noto Sans', sans-serif;
+  font-family:'Poppins';
+  font-size: 15px;
 }
 
 .container{
@@ -20,27 +21,28 @@
 }
 
 .profilebox {
-  margin: 0 auto;
-  max-width: 400px; /* Set the maximum width of the profile box */
+  margin: 10px;
+  width: 400px; /* Set the maximum width of the profile box */
   text-align: center;
   padding: 20px;
   color: azure;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 5px 10px black;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .profile-pic-icon{
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: #fff;
+  background: #ffffff65;
   padding: 6px;
 }
 
 .profilebox h3{
   font-size: 20px;
-  padding: 10px 10px;
+
   font-weight: bolder;
 }
 
@@ -48,12 +50,45 @@
   margin-top: 10px;
   margin-bottom: 5px;
   font-size: 14px; /* Reduce font size for better readability on mobile devices */
+
 }
 
 .social-media img{
   padding: 5px;
   margin-top: 10px;
   cursor: pointer;
-  width: 50px; /* Reduce size of social media icons for better readability on mobile devices */
-  height: 50px;
+  width: 100px; /* Reduce size of social media icons for better readability on mobile devices */
+  height: 100px;
+}
+
+.nav{
+  float: left;
+  background-color: azure;
+  color: black;
+  width: auto;
+  margin: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 3px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.heading h1{
+  text-align: left;
+  font-size: xx-large;
+
+}
+
+
+.instapost ul li { 
+  width: 320px;
+  float: left;
+  margin-right: 10px;
+}
+
+.youtube {
+  display: inline;
 }
