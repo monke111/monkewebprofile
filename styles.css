@@ -92,3 +92,7 @@ a:link {
 .youtube {
   display: inline;
 }
+
+.embed {
+  padding: 10px;
+}
