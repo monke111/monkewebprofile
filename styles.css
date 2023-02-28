@@ -21,15 +21,15 @@
 }
 
 .profilebox {
-  margin: 10px;
-  width: 400px; /* Set the maximum width of the profile box */
+  margin: 20px;
+  max-width: 400px; /* Set the maximum width of the profile box */
   text-align: center;
   padding: 20px;
   color: azure;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 5px 10px black;
-  grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .profile-pic-icon{
