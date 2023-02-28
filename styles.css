@@ -70,6 +70,7 @@
   border-radius: 10px;
   cursor: pointer;
   padding: 3px;
+  font-weight: bold;
 }
 
 a:link {
@@ -95,4 +96,9 @@ a:link {
 
 .embed {
   padding: 10px;
+}
+
+.foot{
+  color: #00000080;
+  font-weight: 800;
 }
